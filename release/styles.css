@@ -1,0 +1,185 @@
+body {
+    background-image: url("images/256f7251f80913f8bd1100db4f8bc9e5.jpg");
+    background-repeat: no-repeat;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #333333;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: rgb(0, 0, 0);
+    padding: 1px 0px 10px 400px;
+}
+
+
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    font-size: 20px;
+    max-height: 110px;
+}
+
+.main {
+    font-size: 30px;
+    }
+
+li {
+    display: inline-block;
+    margin: 30px;
+}
+
+
+
+a.main {
+    transition: border-width 0.3s linear;
+    background-image: url("images/download.jpg");
+    background-size: 50px;
+    display: inline-block;
+    border: white;
+    border-style: solid;
+    border-radius: 7px;
+    border-width: 0px;
+    height: 50px;
+    width: 30px;
+}
+
+
+a.main:hover {
+    border-width: 2px;
+}
+
+a {
+    transition: color 0.5s ease;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    transition: background-color 0.2s linear;
+    background-color: rgba(255, 255, 255,0);
+    border: white;
+    border-style: solid;
+    border-radius: 7px;
+    border-width: 2px;
+    padding: 2px 12px 2px 12px;
+    left: 370px;
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+
+
+
+.logo{
+    background-image: url("images/info.png");
+    background-color: #333333;
+    position: absolute;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position-x: 75px;
+    background-position-y: 50px;
+    box-shadow: 2px 2px 50px black;
+    height: 200px;
+    width: 250px;
+    top:  400px;
+    left: 400px;
+    transition: transform 0.5s ease, border-bottom 0.5s ease;
+}
+
+div.logo:hover {
+    background-color: #7d00b8;
+    border-bottom: 200px solid white;
+    transform: translateY(-100px);
+    box-shadow: none;
+    color: rgb(0, 0, 0);
+}
+
+.logo p{
+    color: rgba(255, 255, 255,0);
+    position: absolute;
+    top: 190px;
+}
+
+.logo:hover > p {
+    color: black;
+}
+
+.faq {
+    background-image: url("images/faq.png");
+    background-color: #333333;
+    position: absolute;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position-x: 75px;
+    background-position-y: 50px;
+    box-shadow: 2px 2px 50px black;
+    height: 200px;
+    width: 250px;
+    top:  400px;
+    left: 820px;
+    transition: transform 0.5s ease, border-bottom 0.5s ease;
+}
+
+.faq:hover {
+    background-color: #cc0066;
+    border-bottom: 200px solid white;
+    transform: translateY(-100px);
+    box-shadow: none;
+    color: rgb(0, 0, 0);
+}
+
+.faq p{
+    color: rgba(255, 255, 255,0);
+    position: absolute;
+    top: 190px;
+}
+
+.faq:hover > p {
+    color: black;
+}
+
+.person {
+    background-image: url("images/person.png");
+    background-color: #333333;
+    position: absolute;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position-x: 75px;
+    background-position-y: 50px;
+    box-shadow: 2px 2px 50px black;
+    height: 200px;
+    width: 250px;
+    top:  400px;
+    left: 1200px;
+    transition: transform 0.5s ease, border-bottom 0.5s ease;
+}
+
+.person:hover{
+    background-color: #009900;
+    border-bottom: 200px solid white;
+    transform: translateY(-100px);
+    box-shadow: none;
+    color: rgb(0, 0, 0);
+}
+
+.person p{
+    color: rgba(255, 255, 255,0);
+    position: absolute;
+    top: 190px;
+}
+
+.person:hover > p {
+    color: black;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    position: relative;
+    padding: 20px;
+    top: 790px;
+}

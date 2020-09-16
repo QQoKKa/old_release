@@ -1,0 +1,160 @@
+body {
+    background-image: url("images/256f7251f80913f8bd1100db4f8bc9e5.jpg");
+    background-repeat: no-repeat;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #333333;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: rgb(0, 0, 0);
+    padding: 1px 0px 10px 400px;
+}
+
+
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    font-size: 20px;
+    max-height: 110px;
+}
+
+.main {
+    font-size: 30px;
+    }
+
+li {
+    display: inline-block;
+    margin: 30px;
+}
+
+
+
+a.main {
+    transition: border-width 0.3s linear;
+    background-image: url("images/download.jpg");
+    background-size: 50px;
+    display: inline-block;
+    border: white;
+    border-style: solid;
+    border-radius: 7px;
+    border-width: 0px;
+    height: 50px;
+    width: 30px;
+}
+
+
+a.main:hover {
+    border-width: 2px;
+}
+
+a {
+    transition: color 0.5s ease;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    transition: background-color 0.2s linear;
+    background-color: rgba(255, 255, 255,0);
+    border: white;
+    border-style: solid;
+    border-radius: 7px;
+    border-width: 2px;
+    padding: 2px 12px 2px 12px;
+    left: 370px;
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+
+
+p {
+    position: absolute;
+    top: 0px;
+    left: 260px;
+    height: 256px;
+    width: 444px;
+}
+
+
+.map1 {
+    color: rgba(255, 255, 255,0);
+    background-color: rgb(193, 199, 250);
+    background-image: url("images/Bayoumap.png");
+    background-size: 256px;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 110px;
+    left: 599px;
+    height: 256px;
+    width: 256px;
+    transition: color 1.5s, width 1s;
+}
+
+.map1:hover {
+    color: black;
+    width: 700px;
+    
+}
+
+.map2 {
+    color: rgba(112, 112, 112, 0);
+    background-image: url("images/lawsmap.png");
+    background-size: 256px;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 160px;
+    left: 600px;
+    background-color: rgb(193, 199, 250);
+    height: 256px;
+    width: 256px;
+    transition: color 1.5s , width 1s;
+}
+
+.map2:hover {
+    color: black;
+    width: 709px;
+    
+}
+.name {
+    position: absolute;
+    font-size: 40px;
+    left: 590px;
+    top: 180px;
+}
+
+.name2 {
+    position: absolute;
+    font-size: 40px;
+    left: 590px;
+    top: 490px;
+}
+
+.text {
+    position: absolute;
+    color: black;
+    background-color: white;
+    height: 255px;
+    width: 256px;
+    left: 600px;
+    top: 241px;
+    transition: transform 2s ease;
+}
+
+.text:hover {
+    transform: translateX(700px);
+}
+
+
+footer {
+    text-align: center;
+    background-color: black;
+    position: relative;
+    padding: 20px;
+    top: 278px;
+}
